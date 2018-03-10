@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 500px;
+    text-align: center;
+    margin: 20px auto;
+}
+.header h1 {
+    color: deeppink;
+    margin-bottom: 20px;
+}
+.header button {
+    border: none;
+    width: 75px;
+    height: 40px;
+    background-color: green;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 62px;
+}
+.header label {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkgreen;
+}
+.header #score {
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    width: 80px;
+    height: 40px;
+    outline: none;
+}
+
+.box {
+    width: 460px;
+    height: 460px;
+    margin: 0 auto;
+    background-color: #bbada0;
+    border-radius: 10px;
+    padding: 15px;
+    position: relative;
+}
+.box .square {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc0b3;
+    border-radius: 10px;
+    position: absolute;
+}
+.box .demo {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    border-radius: 10px;
+}
+.box #square03,.box #square13,.box #square23,.box #square33 {
+    margin-right: 0;
+}
+
+.success {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(150,200,255,1);
+    border-radius: 10px;
+    position: absolute;
+    z-index: 999;
+    top: 200px;
+    left: 480px;
+    text-align: center;
+}
+.success h1 {
+    color: #ff584e;
+    text-align: center;
+    margin-top: 60px;
+}
+.success button {
+    width: 100px;
+    height: 60px;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+
+body{
+    position: relative;
+}
+body .whole {
+    display: none;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+}
